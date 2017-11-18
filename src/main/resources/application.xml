@@ -1,0 +1,9 @@
+<beans>
+    <bean id="dog" class="me.drfish.ioc.Dog">
+        <property name="bob"/>
+    </bean>
+    <bean id="people" class="me.drfish.ioc.People">
+        <property ref=""/>
+        <property ref="food"/>
+    </bean>
+</beans>
